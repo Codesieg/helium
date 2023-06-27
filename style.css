@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(53, 49, 49);
+    font-family: 'Inter';
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.menu__logo {
+    margin: 1em;
+    color:rgb(242, 243, 245);
+    font-weight: 600;
+    font-size: 1.5em;
+    width: 10%;
+}
+
+.menu__main {
+    display: flex;
+    width: 50%;
+    margin: 1em;
+
+}
+
+.menu__liste {
+    display: flex;
+    list-style: none;
+    width:100%;
+    justify-content: space-around;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h1, h3, p {
+    color: white;
+    margin: 0;
+}
+
+h3 {
+    color: rgb(96, 96, 236);
+    font-size: 1.5em;
+    margin-bottom: 0.6em;
+}
+
+.main__left {
+    width: 30%;
+    margin: 1em;
+}
+
+.main__right {
+    width: 30%;
+}
+
+.main__right img{
+    width: 100%;
+}
+
+.infos {
+    background-color:#050505 ;
+    border-radius: 10px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.infos__item {
+    list-style-type: none;
+    border-radius: 10px;
+    background-color: rgb(48, 48, 230);
+    padding: 0.5em;
+    display: flex;
+    width: 100%;
+    justify-content: center
+}
+
+.infos__left {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.infos__liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.infos__item a {
+    text-decoration:none;
+    color: white;
+    display: flex;
+}
+
+.infos__right {
+    align-items: center;
+    flex-direction: column;
+}
+
+h4 {
+    margin: 0;
+}
+
+.investors {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+}
+
+.investors img {
+    width: 18%
+}
+
